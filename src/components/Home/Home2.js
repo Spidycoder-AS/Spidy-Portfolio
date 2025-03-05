@@ -19,8 +19,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with technology at the age of 14 when I started coding, and my journey has been all about
-              learning and growing! 🚀
+              I fell in love with technology at the age of 14 when I started
+              coding, and my journey has been all about learning and growing! 🚀
               <br />
               <br />I have experience with
               <i>
@@ -82,7 +82,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="#"
+                  href="https://x.com/notsp1dy"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

@@ -8,14 +8,9 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
-  DiCss3,
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
   SiCss3,
   SiHtml5,
