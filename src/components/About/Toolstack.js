@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiVisualstudiocode,
   SiNetlify,
   SiOpenai,
   SiGithub,
@@ -9,6 +8,7 @@ import {
   SiTelegram,
 } from "react-icons/si";
 import { FaWindows, FaDiscord } from "react-icons/fa";
+import { TbBrandVscode } from "react-icons/tb";
 
 function Toolstack() {
   return (
@@ -20,7 +20,7 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <TbBrandVscode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
