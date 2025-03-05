@@ -4,6 +4,8 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/Javascript-Certificate.pdf";
 import pdf2 from "../../Assets/Internship Completion Certificate - Iftikar Hussain.pdf";
+import pdf3 from "../../Assets/Git & GitHub Certiicate.pdf";
+import pdf4 from "../../Assets/React Bootcamp Certificate.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -60,6 +62,42 @@ function ResumeNew() {
           <Button
             variant="primary"
             href={pdf2}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download Certificate
+          </Button>
+        </Row>
+
+        <Row className="resume">
+          <Document file={pdf3} className="d-flex justify-content-center">
+            <Page pageNumber={1} scale={width > 786 ? 1.2 : 0.45} />
+          </Document>
+        </Row>
+
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+            variant="primary"
+            href={pdf3}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download Certificate
+          </Button>
+        </Row>
+
+        <Row className="resume">
+          <Document file={pdf4} className="d-flex justify-content-center">
+            <Page pageNumber={1} scale={width > 786 ? 1.2 : 0.45} />
+          </Document>
+        </Row>
+
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+            variant="primary"
+            href={pdf4}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
