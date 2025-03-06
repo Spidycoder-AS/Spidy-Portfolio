@@ -26,9 +26,6 @@ html {
   color: rgb(30, 179, 229);
 }
 
-
-
-
 button:focus {
   box-shadow: none !important;
 }
@@ -167,10 +164,12 @@ button:focus {
 
 .logo {
   height: auto !important;
-  width: 2.5em !important;
-  background-color: rgba(245, 222, 179, 0.799) !important;
-  border-radius: 20% !important;
+  width: 2.3em !important;
+  background-color: rgba(255, 221, 68, 0.73) !important;
+  border-radius: 25% !important;
   padding: 5px !important;
+  border: 2px solid rgb(23, 184, 238) !important; /* Border color */
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.556) !important; /* Shadow effect */
 }
 
 .navbar-nav .nav-link {
@@ -309,6 +308,9 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-section {
+    margin-top: -100px !important; /* Decreasing top margin for better view on mobile devices */
+  }
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;

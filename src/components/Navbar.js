@@ -6,6 +6,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import { FcServices } from "react-icons/fc";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -101,6 +102,16 @@ function NavBar() {
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item> */}
+
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://spidycoderproject1.netlify.app/"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                Services <FcServices style={{ fontSize: "1.2em" }} />{" "}
+              </Button>
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button

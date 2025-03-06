@@ -19,14 +19,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with technology at the age of 14 when I started
+              I fell in love with technology at the age of 16 when I started
               coding, and my journey has been all about learning and growing! 🚀
               <br />
               <br />I have experience with
               <i>
                 <b className="purple">
                   {" "}
-                  HTML, CSS, JavaScript, React.js, Tailwind CSS, and Next.js
+                  HTML, CSS, Tailwind CSS, JavaScript, React.js, and Next.js
                 </b>
               </i>
               , and I’m passionate about building
@@ -42,16 +42,14 @@ function Home2() {
               <b className="purple">
                 {" "}
                 Blockchain, Cybersecurity, Penetration Testing, Vulnerability
-                Analysis,
-              </b>
-              and <b className="purple"> Digital Forensics.</b>
-              I love exploring the intersection of security and technology to
+                Analysis, </b>
+              and <b className="purple"> Digital Forensics.</b> I love exploring the intersection of security and technology to
               build safer, more robust systems.
               <br />
               <br />
               I’m always eager to
               <i>
-                <b className="purple"> learn, improve, and push my limits</b>
+                <b className="purple"> learn, improve, and push my limits </b>
               </i>
               in web development and cybersecurity. The journey never stops!
               🔥🔍
@@ -66,9 +64,6 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -111,6 +106,9 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <p>
+              Feel free to <span className="blue-text">connect </span>with me
+            </p>
           </Col>
         </Row>
       </Container>
