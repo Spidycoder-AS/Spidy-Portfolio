@@ -41,7 +41,7 @@ const NFTMarketplace = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="button-30" role="button">
+        <button className="button-30">
           Buy NFT🌟
         </button>
       </a>
