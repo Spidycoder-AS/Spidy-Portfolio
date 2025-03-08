@@ -14,6 +14,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import ScrollToTop from "./components/ScrollToTop";
+import NFTMarketplace from "./components/NFTMarketplace/NFTMarketplace";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -41,6 +42,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/nft-marketplace" element={<NFTMarketplace />} />{" "}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />

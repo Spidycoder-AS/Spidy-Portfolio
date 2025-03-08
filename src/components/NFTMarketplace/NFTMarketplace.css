@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html {
+  background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  );
+
+  --imp-text-color: #c770f0;
+}
+
+.nft-marketplace {
+  text-align: center;
+  padding: 20px;
+  padding-top: 120px;
+  /* background-color: #630b9e; */
+  color: white;
+}
+
+.nft-marketplace h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: bold; /* Ensures bold text */
+  font-family: "Poppins", sans-serif; /* Change this to your preferred font */
+}
+
+         /* BuY NFT button */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #7B1FA2; /* Purple Background */
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: rgba(123, 31, 162, 0.4) 0 2px 4px, rgba(123, 31, 162, 0.3) 0 7px 13px -3px, #9C27B0 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #EDE7F6; /* Light Purple Text */
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 45px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.button-30:focus {
+  box-shadow: #B39DDB 0 0 0 1.5px inset, rgba(123, 31, 162, 0.4) 0 2px 4px, rgba(123, 31, 162, 0.3) 0 7px 13px -3px, #9C27B0 0 -3px 0 inset;
+  color: #61ff64;
+}
+
+.button-30:hover {
+  box-shadow: rgba(123, 31, 162, 0.5) 0 4px 8px, rgba(123, 31, 162, 0.3) 0 7px 13px -3px, #B39DDB 0 -3px 0 inset;
+  transform: translateY(-2px);
+  color: #61ff64;
+}
+
+.button-30:active {
+  box-shadow: #9C27B0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+         /* BuY NFT button */
+
+
+.nft-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nft-card {
+  background: #001dfb54;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.nft-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-color: #333;
+  margin-bottom: 10px;
+}
+
+.nft-card h3 {
+  color: var(--imp-text-color);
+  font-size: 1.3rem;
+  margin: 10px 0;
+  word-wrap: break-word;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif; /* Change this to your preferred font */
+}
+
+.nft-card p {
+  font-size: 1rem;
+  padding: 0 10px;
+  text-align: center;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  flex-grow: 1;
+}
+
+
+/* ✅ Mobile View: Two Cards Per Row */
+@media (max-width: 768px) {
+    .button-30 {
+    font-size: 16px;
+    padding: 10px 20px;
+    height: 42px;
+  }
+
+  .nft-container {
+    justify-content: space-between; /* ✅ Ensures proper spacing */
+    gap: 10px;
+  }
+
+  .nft-card {
+    width: calc(50% - 5px); /* ✅ Two cards in one row with spacing */
+    min-height: 360px;
+    padding: 15px;
+  }
+
+  .nft-image {
+    width: 100%; /* ✅ Ensures it fits the card width */
+    height: auto;
+  }
+
+  .nft-card h3 {
+    font-size: 1rem;
+  }
+
+  .nft-card p {
+    font-size: 0.6rem;
+  }
+}

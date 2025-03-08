@@ -7,15 +7,14 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { FcServices } from "react-icons/fc";
+import { GiFireGem } from "react-icons/gi";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
-// import { ImBlog } from "react-icons/im";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -93,15 +92,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            {/* ✅ New NFT Marketplace Navigation Link */}
+            <Nav.Item>
               <Nav.Link
-                href=""
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/nft-marketplace"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <GiFireGem color="cyan" style={{ marginBottom: "2px" }} />{" "}
+                NFT Marketplace
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
@@ -109,7 +110,7 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                Services <FcServices style={{ fontSize: "1.2em" }} />{" "}
+                Services <FcServices style={{ fontSize: "1.2em" }} />
               </Button>
             </Nav.Item>
 
