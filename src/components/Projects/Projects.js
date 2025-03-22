@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
 import CarMarket from "../../Assets/Projects/CarMarket.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import FreeOnlineTools from "../../Assets/Projects/FreeOnlineTools.png";
 
 function Projects() {
   return (
@@ -21,11 +17,43 @@ function Projects() {
           Here are the few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={FreeOnlineTools}
+              isBlog={false}
+              title={
+                <span style={{ fontWeight: "bold" }}>
+                  100+ Free Online Tools 🔍
+                </span>
+              }
+              description={
+                <>
+                  100+ Free Online Tools, your go-to platform for productivity,
+                  development, security, and more! No downloads, no
+                  sign-ups—just instant access to powerful tools.
+                  <br /> 🚀 **What’s Inside?** <br />➤ **Developer Tools:** Code
+                  formatters, minifiers, and more. <br />➤ **Math &
+                  Calculators:** Solve equations, conversions, and calculations.{" "}
+                  <br />➤ **Unit Converters:** Convert currency, measurements,
+                  and time. <br />➤ **Security & Encryption:** Hash generators,
+                  password tools, and more. <br />➤ **Social Media Tools:** Link
+                  shorteners, post schedulers, and analytics. <br />
+                  New tools are constantly being added to make your life easier.
+                  Stay tuned for updates! 🚀
+                </>
+              }
+              demoLink="https://100freeonlinetools.vercel.app/"
+            />
+          </Col>
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={CarMarket}
               isBlog={false}
-              title="Second-Hand Car Market 🚗"
+              title={
+                <span style={{ fontWeight: "bold" }}>
+                  Second-Hand Car Market 🚗
+                </span>
+              }
               description={
                 <>
                   Since February 2024, I’ve been developing a second-hand car
