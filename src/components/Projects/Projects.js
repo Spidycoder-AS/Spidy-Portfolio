@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import CarMarket from "../../Assets/Projects/CarMarket.png";
 import FreeOnlineTools from "../../Assets/Projects/FreeOnlineTools.png";
+import GoldenTimeCounter from "../../Assets/Projects/GoldenTimeCounter.png";
 
 function Projects() {
   return (
@@ -43,6 +44,44 @@ function Projects() {
                 </>
               }
               demoLink="https://100freeonlinetools.vercel.app/"
+            />
+          </Col>
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={GoldenTimeCounter}
+              isBlog={false}
+              title={
+                <span style={{ fontWeight: "bold" }}>
+                  Golden Time Counter 💑
+                </span>
+              }
+              description={
+                <>
+                  Celebrate your love story with this romantic time counter made
+                  for all lovebirds! 🕊️ Just enter your relationship’s start
+                  date and time, and watch the magic unfold— see exactly how
+                  long you’ve been together in years, months, days, hours,
+                  minutes, and seconds. 💖
+                  <br /> <br />
+                  💘 <strong>For Every Couple:</strong> Whether you’re dating,
+                  engaged, or married!
+                  <br />
+                  📆 <strong>Customizable:</strong> Set your unique starting
+                  moment.
+                  <br />
+                  ❤️ <strong>Live Counter:</strong> Real-time tracking of your
+                  love journey.
+                  <br />
+                  🌈 <strong>Romantic Design:</strong> Heart animation and
+                  elegant styling.
+                  <br />
+                  📱 <strong>Fully Responsive:</strong> Works smoothly on all
+                  devices.
+                  <br />✨ Keep celebrating your moments together—forever.
+                </>
+              }
+              ghLink="https://github.com/Spidycoder-AS/RelationshipCounterInfinity"
+              demoLink="https://helloearlybird.netlify.app/"
             />
           </Col>
           <Col md={5} className="project-card">
