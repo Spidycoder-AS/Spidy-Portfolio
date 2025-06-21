@@ -23,14 +23,6 @@ User-agent: DuckDuckBot
 Allow: /
 Crawl-delay: 1
 
-# Block access to sensitive files and directories
-Disallow: /_redirects
-Disallow: /robots.txt
-Disallow: /sitemap.xml
-Disallow: /sitemap-images.xml
-Disallow: /sitemap-projects.xml
-Disallow: /manifest.json
-
 # Block access to build and development files
 Disallow: /build/
 Disallow: /node_modules/
