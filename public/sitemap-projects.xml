@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- SpidyCoder Portfolio - Projects Sitemap -->
+  <!-- Created for Iftikhar Hussain (SpidyCoder) Portfolio -->
+  <!-- Last Updated: 2025-01-22 -->
+
+  <!-- Main Projects Section -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NFT Marketplace Project -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#nft-marketplace</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- React.js Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#react-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Next.js Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#nextjs-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- JavaScript Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#javascript-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Cybersecurity Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#cybersecurity-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Full-Stack Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#fullstack-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Web Development Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#webdev-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Mobile App Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#mobile-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- API Development Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#api-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Database Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#database-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- DevOps Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#devops-projects</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Open Source Contributions -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#opensource</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- GitHub Projects Repository -->
+  <url>
+    <loc>https://github.com/Spidycoder-AS?tab=repositories</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Live Demo Projects -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#live-demos</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Project Case Studies -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#case-studies</loc>
+    <lastmod>2025-01-22T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset> 

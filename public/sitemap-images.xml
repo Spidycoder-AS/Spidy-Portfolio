@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <!-- SpidyCoder Portfolio - Image Sitemap -->
+  <!-- Created for Iftikhar Hussain (SpidyCoder) Portfolio -->
+  <!-- Last Updated: 2025-01-22 -->
+
+  <!-- Homepage with OG Image -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/og-image.jpg</image:loc>
+      <image:title>SpidyCoder Portfolio - Iftikhar Hussain</image:title>
+      <image:caption>Professional headshot of Iftikhar Hussain (SpidyCoder) - Full-Stack Developer specializing in React.js, Next.js, and cybersecurity</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc-nd/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <!-- Favicon Images -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/favicon.ico</image:loc>
+      <image:title>SpidyCoder Favicon</image:title>
+      <image:caption>Official favicon for SpidyCoder portfolio website</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/favicon-16x16.png</image:loc>
+      <image:title>SpidyCoder 16x16 Favicon</image:title>
+      <image:caption>16x16 pixel favicon for SpidyCoder portfolio</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/favicon-32x32.png</image:loc>
+      <image:title>SpidyCoder 32x32 Favicon</image:title>
+      <image:caption>32x32 pixel favicon for SpidyCoder portfolio</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/apple-touch-icon.png</image:loc>
+      <image:title>SpidyCoder Apple Touch Icon</image:title>
+      <image:caption>180x180 Apple touch icon for iOS devices</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/android-chrome-192x192.png</image:loc>
+      <image:title>SpidyCoder Android Chrome 192x192</image:title>
+      <image:caption>192x192 Android Chrome icon for PWA</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/android-chrome-512x512.png</image:loc>
+      <image:title>SpidyCoder Android Chrome 512x512</image:title>
+      <image:caption>512x512 Android Chrome icon for PWA</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Section Images (if any) -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#about</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/og-image.jpg</image:loc>
+      <image:title>About Iftikhar Hussain - SpidyCoder</image:title>
+      <image:caption>About section featuring Iftikhar Hussain's professional background and skills</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Projects Section Images -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#projects</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/og-image.jpg</image:loc>
+      <image:title>Projects Portfolio - SpidyCoder</image:title>
+      <image:caption>Showcase of React.js, Next.js, and cybersecurity projects by Iftikhar Hussain</image:caption>
+    </image:image>
+  </url>
+
+  <!-- NFT Marketplace Section -->
+  <url>
+    <loc>https://iftikhariscoding.netlify.app/#nft-marketplace</loc>
+    <image:image>
+      <image:loc>https://iftikhariscoding.netlify.app/og-image.jpg</image:loc>
+      <image:title>NFT Marketplace - SpidyCoder</image:title>
+      <image:caption>NFT marketplace project showcasing blockchain and web3 development skills</image:caption>
+    </image:image>
+  </url>
+
+</urlset> 
